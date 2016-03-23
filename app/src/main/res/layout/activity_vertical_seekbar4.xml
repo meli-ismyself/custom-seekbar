@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello" />
+
+
+    <LinearLayout
+        android:id="@+id/LinearLayout01"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:padding="30dp">
+
+        <meliismyself.com.verticalseekbar.VerticalSeekBarCustom2
+            android:id="@+id/ProgressBar01"
+            android:layout_width="24dip"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="20px"
+            android:progressDrawable="@drawable/progress_vertical" />
+
+        <meliismyself.com.verticalseekbar.VerticalSeekBarCustom2
+            android:id="@+id/SeekBar01"
+            android:layout_width="26dip"
+            android:layout_height="fill_parent"
+            android:progressDrawable="@drawable/progress_vertical"
+            android:thumb="@drawable/seek_thumb" />
+
+        <meliismyself.com.verticalseekbar.VerticalSeekBarCustom2
+            android:id="@+id/SeekBar02"
+            android:layout_width="50dip"
+            android:layout_height="fill_parent"
+            android:progressDrawable="@drawable/progress_vertical"
+            android:thumb="@drawable/seek_thumb_wide" />
+
+    </LinearLayout>
+</LinearLayout>
